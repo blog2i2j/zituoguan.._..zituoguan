@@ -5,11 +5,15 @@
 
 ## 目录
 
+  - [书签和链接分享](#书签和链接分享)
+  - [任务管理和待办清单](#任务管理和待办清单)
   - [内容管理系统（CMS）](#内容管理系统（cms）)
+  - [分析](#分析)
   - [地图和全球定位系统（GPS）](#地图和全球定位系统（gps）)
   - [工单](#工单)
   - [搜索引擎](#搜索引擎)
   - [数据库管理](#数据库管理)
+  - [文件传输 - 对象存储和文件服务器](#文件传输---对象存储和文件服务器)
   - [文件传输和同步](#文件传输和同步)
   - [文档管理 - 电子书](#文档管理---电子书)
   - [时间追踪](#时间追踪)
@@ -17,6 +21,7 @@
   - [流媒体 - 视频流媒体](#流媒体---视频流媒体)
   - [游戏](#游戏)
   - [游戏 - 管理工具和控制面板](#游戏---管理工具和控制面板)
+  - [生成式人工智能（GenAI）](#生成式人工智能（genai）)
   - [电子商务](#电子商务)
   - [相册](#相册)
   - [知识管理工具](#知识管理工具)
@@ -42,20 +47,41 @@
 
 ## 软件
 
+### 书签和链接分享
+
+**[`^        返回顶部        ^`](##awesome-selfhosted---non-free-software)**
+
+- [42links](https://42links.tuxproject.de) - 支持多账户的书签服务器。 ([源代码](https://code.rosaelefanten.org/42links)) `BSD-3-Clause-No-Military-License` `CommonLisp`
+
+
+### 任务管理和待办清单
+
+**[`^        返回顶部        ^`](##awesome-selfhosted---non-free-software)**
+
+- [Planka](https://planka.app/) - 实时看板，用于工作组（Trello 的替代品）。 ([演示](https://plankanban.github.io/planka/#/), [源代码](https://github.com/plankanban/planka)) `⊘ Proprietary` `Nodejs/Docker/K8S`
+
+
 ### 内容管理系统（CMS）
 
 **[`^        返回顶部        ^`](##awesome-selfhosted---non-free-software)**
 
 - [CraftCMS](https://craftcms.com/) - 以内容为先的CMS，旨在为开发人员和内容管理者提供愉快的生活体验。 ([演示](https://craftcms.com/demo), [源代码](https://github.com/craftcms/cms)) `⊘ Proprietary` `PHP`
 - [Kirby](https://getkirby.com/) - 基于文件的CMS。易于设置。易于使用。非常灵活。 ([源代码](https://github.com/getkirby/kirby)) `⊘ Proprietary` `PHP`
-- [October](https://octobercms.com/) - 基于 Laravel PHP 框架的内容管理系统（CMS）平台。 ([源代码](https://github.com/octobercms/october)) `⊘ Proprietary` `PHP`
+- [October](https://octobercms.com/) - 基于 Laravel PHP 框架的 CMS 平台。 ([源代码](https://github.com/octobercms/october)) `⊘ Proprietary` `PHP`
+
+
+### 分析
+
+**[`^        返回顶部        ^`](##awesome-selfhosted---non-free-software)**
+
+- [RudderStack](https://rudderstack.com/) - 收集、统一、转换和存储客户数据，并将其路由到各种常见、流行的营销、销售和产品工具（Segment 的替代方案）。 ([源代码](https://github.com/rudderlabs/rudder-server/)) `Elastic-2.0` `Docker/K8S/Go/Nodejs`
 
 
 ### 地图和全球定位系统（GPS）
 
 **[`^        返回顶部        ^`](##awesome-selfhosted---non-free-software)**
 
-- [MapTiler Server](https://www.maptiler.com/server/) - 托管 OpenStreetMap 矢量瓦片、卫星图像、自有地理数据以及来自 PostGIS 数据库的数据。 `⊘ Proprietary` `Unknown`
+- [MapTiler Server](https://www.maptiler.com/server/) - 托管 OpenStreetMap 矢量瓦片、卫星影像、自有地理数据及 PostGIS 数据库中的数据。 `⊘ Proprietary` `Unknown`
 
 
 ### 工单
@@ -69,6 +95,7 @@
 - [JIRA](https://www.atlassian.com/software/jira) - 专业且可扩展的问题跟踪器。 `⊘ Proprietary` `Java`
 - [Jitbit Helpdesk](https://www.jitbit.com/helpdesk/) - 帮助台软件 - 简单但强大。 ([演示](https://www.jitbit.com/saas-helpdesk/trial/)) `⊘ Proprietary` `.NET`
 - [SupportPal](https://www.supportpal.com/) - 强大的帮助台软件 - 简单、快速且直观。 ([演示](https://www.supportpal.com/product/demo)) `⊘ Proprietary` `PHP`
+- [Telebugs](https://telebugs.com/) - 轻量级错误追踪工具，无需订阅（Sentry 替代品）。 `⊘ Proprietary` `Docker`
 
 
 ### 搜索引擎
@@ -84,14 +111,22 @@
 
 - [Cluster Control](https://severalnines.com/clustercontrol/) - 用监控、负载均衡等功能在几次点击中设置多个数据库。 `⊘ Proprietary` `deb/Ansible/Shell/Docker`
 - [Directus](https://directus.io/) - 一个用于SQL数据库的即时应用和API。Directus为开发人员提供了一个实时的GraphQL+REST API，可包装新的或现有的SQL数据库，并为非技术用户提供了直观的管理应用。 ([源代码](https://github.com/directus/directus)) `BUSL-1.1` `Nodejs/Docker`
-- [MindsDB](https://mindsdb.com/) - 现有数据库的 AI 层，可让您使用标准查询轻松开发、训练和部署最先进的机器学习模型。 ([源代码](https://github.com/mindsdb/mindsdb)) `Elastic-2.0` `Docker/Python`
+- [MindsDB](https://mindsdb.com/) - 现有数据库的 AI 层，让你能够使用标准查询语句轻松开发、训练和部署最先进的机器学习模型。 ([源代码](https://github.com/mindsdb/mindsdb)) `Elastic-2.0` `Docker/Python`
+- [NocoDB](https://www.nocodb.com/) - 无代码平台，可将任何数据库转换为智能电子表格（Airtable 和 Smartsheet 的替代品）。 ([源代码](https://github.com/nocodb/nocodb)) `SUL-1.0` `Nodejs/Docker`
+
+
+### 文件传输 - 对象存储和文件服务器
+
+**[`^        返回顶部        ^`](##awesome-selfhosted---non-free-software)**
+
+- [sftpgo Community Edition](https://github.com/drakkan/sftpgo) - 灵活、功能齐全且高度可配置的 SFTP 服务器，支持可选的 FTP/S 和 WebDAV。 `AGPL-3.0/⊘ Proprietary` `Go/deb/Docker`
 
 
 ### 文件传输和同步
 
 **[`^        返回顶部        ^`](##awesome-selfhosted---non-free-software)**
 
-- [FileRun](https://www.filerun.com/) - 与 Google 和 Office 集成的文件的完整解决方案。 ([演示](https://www.filerun.com/demo)) `⊘ Proprietary` `PHP`
+- [FileRun](https://filerun.com/) - 与 Google 和 Office 集成的文件的完整解决方案。 ([演示](https://filerun.com/demo)) `⊘ Proprietary` `PHP`
 - [Resilio Sync](https://www.resilio.com/) - 专有的点对点文件同步工具。 `⊘ Proprietary` `Unknown`
 - [Yetishare](https://yetishare.com) - 强大的文件托管脚本，支持Amazon S3、Wasabi、Backblaze、本地、直接和SFTP存储。 ([演示](https://fhscript.com)) `⊘ Proprietary` `PHP`
 
@@ -115,9 +150,9 @@
 
 **[`^        返回顶部        ^`](##awesome-selfhosted---non-free-software)**
 
-- [Keygen](https://github.com/keygen-sh/keygen-api) - 软件授权和分发 API。 `⊘ Proprietary` `Ruby`
-- [RemoteUtilities](https://www.remoteutilities.com/) - Remote Utilities是用于局域网管理和通过互联网进行远程支持的自托管远程支持软件。 `⊘ Proprietary` `Unknown`
-- [ScreenConnect](https://www.connectwise.com/platform/unified-management/control) - 高速远程支持和远程访问，可立即连接并更快地解决问题。 `⊘ Proprietary` `Unknown`
+- [Keygen](https://keygen.sh/) - 软件授权与分发 API。 ([源代码](https://github.com/keygen-sh/keygen-api)) `⊘ Proprietary` `Ruby`
+- [RemoteUtilities](https://www.remoteutilities.com/) - 用于局域网管理和互联网远程支持的远程协助软件。 `⊘ Proprietary` `Unknown`
+- [ScreenConnect](https://www.screenconnect.com/) - 闪电般快速的远程支持与远程访问，助你即时连接并更快解决问题。 `⊘ Proprietary` `Unknown`
 
 
 ### 流媒体 - 视频流媒体
@@ -127,7 +162,7 @@
 - [Channels DVR Server](https://getchannels.com/dvr-server/) - 灵活的服务器，为 [Channels](https://getchannels.com) 提供整个家庭的自托管 DVR 体验。 `⊘ Proprietary` `Unknown`
 - [Emby](https://emby.media/) - 家庭媒体服务器，支持即插即用的DLNA和DIAL（Chromecast）设备。 `⊘ Proprietary` `C#`
 - [Plex](https://www.plex.tv/) - 集中式家庭媒体播放系统，具有强大的中央服务器。 `⊘ Proprietary` `Unknown`
-- [Subsonic](http://www.subsonic.org/pages/index.jsp) - Web-based media streamer and jukebox. ([演示](http://demo.subsonic.org/j_acegi_security_check?j_username=guest4&j_password=guest&_acegi_security_remember_me=check)) `⊘ Proprietary` `Unknown`
+- [Subsonic](http://www.subsonic.org/pages/index.jsp) - 基于 Web 的媒体流媒体和点歌机。 ([演示](http://demo.subsonic.org/j_acegi_security_check?j_username=guest4&j_password=guest&_acegi_security_remember_me=check)) `⊘ Proprietary` `Unknown`
 
 
 ### 游戏
@@ -145,6 +180,13 @@
 - [GameVault](https://gamevau.lt) - 从您自己的服务器组织、下载和游玩无DRM的游戏，支持元数据丰富和用户友好的界面。 ([演示](https://demo.gamevau.lt), [源代码](https://github.com/Phalcode/gamevault-backend)) `CC-BY-NC-SA-4.0` `Nodejs/Docker`
 
 
+### 生成式人工智能（GenAI）
+
+**[`^        返回顶部        ^`](##awesome-selfhosted---non-free-software)**
+
+- [LobeHub](https://www.lobehub.com) - 现代化 AI 对话框架，支持多种 AI 提供商，一键安装 MCP 市场及 Artifacts / Thinking 功能。 ([源代码](https://github.com/lobehub/lobehub), [客户端](https://lobehub.com/mcp)) `⊘ Proprietary` `Nodejs/Docker`
+
+
 ### 电子商务
 
 **[`^        返回顶部        ^`](##awesome-selfhosted---non-free-software)**
@@ -157,7 +199,6 @@
 
 **[`^        返回顶部        ^`](##awesome-selfhosted---non-free-software)**
 
-- [Lomorage](https://lomorage.com/) - 通过简单的自托管软件实现的谷歌相册替代方案。支持的客户端有：iOS、Android、Web、MAC/Windows。后端可在Raspberry Pi、Armbian、MAC/Windows/Linux上运行。 ([源代码](https://github.com/lomorage/homepage)) `⊘ Proprietary` `Go`
 - [PhotoStructure](https://photostructure.com/) - 将您家庭的所有照片和视频自动组织成一个有趣而美丽的网站。通过Docker、NodeJS或本地桌面安装程序运行。 `⊘ Proprietary` `Nodejs`
 - [Reservo](https://reservo.co) - 可扩展的图像托管脚本，支持 CDN、付费账户升级、广告位以及拖放上传。 ([演示](https://demo.reservo.co/)) `⊘ Proprietary` `PHP`
 - [Single File PHP Gallery](http://sye.dk/sfpg/) - 一个单一的PHP文件构建的Web图库。 `⊘ Proprietary` `PHP`
@@ -174,7 +215,7 @@
 
 **[`^        返回顶部        ^`](##awesome-selfhosted---non-free-software)**
 
-- [Outline](https://www.getoutline.com/) `⚠` - 为你的团队打造的可扩展维基。 ([源代码](https://github.com/outline/outline)) `BUSL-1.1` `Nodejs/Docker`
+- [Outline](https://www.getoutline.com/) `⚠` - 为您的团队打造的可扩展维基。 ([源代码](https://github.com/outline/outline)) `BUSL-1.1` `Nodejs/Docker`
 
 
 ### 自动化
@@ -205,6 +246,7 @@
 **[`^        返回顶部        ^`](##awesome-selfhosted---non-free-software)**
 
 - [Akaunting](https://akaunting.com/) - 为小型企业和自由职业者设计的会计软件。 ([源代码](https://github.com/akaunting/akaunting)) `BUSL-1.1` `PHP`
+- [Invoice Ninja](https://www.invoiceninja.org/) - 在线向客户开具发票的强大工具。 ([演示](https://app.invoiceninja.com/invoices/create), [源代码](https://github.com/invoiceninja/invoiceninja)) `Elastic-2.0` `PHP/Docker/K8S`
 - [Pancake](https://www.pancakeapp.com/) - 在线发票、项目管理、时间跟踪和提案软件。 `⊘ Proprietary` `PHP`
 
 
@@ -238,9 +280,8 @@
 
 - [Bamboo](https://www.atlassian.com/software/bamboo) - 持续集成服务器。 `⊘ Proprietary` `Java`
 - [BrowserStack Automate TurboScale](https://www.browserstack.com/automate-turboscale) - 可扩展的浏览器自动化网格，在您的云上（AWS、GCP 和 Azure）支持 Selenium 和 Playwright，用于软件开发测试。 `⊘ Proprietary` `Docker`
-- [Grai](https://www.grai.io) - 自动化集成测试。使用数据血缘关系静态分析数据更改对整个数据堆栈的影响。 ([源代码](https://www.github.com/grai-io/grai-core)) `Elastic-2.0` `Docker`
 - [Moon](https://aerokube.com/moon/) - 在 Kubernetes 或 Openshift 中高效运行的 Selenium 协议实现。 `⊘ Proprietary` `Go`
-- [Sentry Self-Hosted](https://github.com/getsentry/self-hosted) - 强大的错误跟踪平台，支持多种编程语言，具有强大的 API。 ([源代码](https://github.com/getsentry/sentry)) `BUSL-1.1` `Python/Django`
+- [Sentry Self-Hosted](https://github.com/getsentry/self-hosted) - 强大的错误跟踪平台，支持多种编程语言，具有强大的 API。 ([源代码](https://github.com/getsentry/sentry)) `BUSL-1.1` `Python`
 
 
 ### 软件开发 - 项目管理
@@ -252,6 +293,7 @@
 - [BitBucket Server](https://www.atlassian.com/software/bitbucket/enterprise/data-center) - 企业级 Git 解决方案（GitLab 的替代品）。 `⊘ Proprietary` `Java`
 - [Buddy Enterprise](https://buddy.works/) - Git 和持续集成/交付平台。 `⊘ Proprietary` `Nodejs/Java`
 - [Crucible](https://www.atlassian.com/software/crucible) - 同行代码审查应用程序。 `⊘ Proprietary` `Java`
+- [eigenfocus](https://eigenfocus.com/) - 项目管理、计划和时间跟踪应用。从个人项目到多成员团队，Eigenfocus 适应您的工作流程。 ([源代码](https://github.com/Eigenfocus/eigenfocus)) `⊘ Proprietary` `Docker`
 - [Kanban Tool](https://kanbantool.com/kanban-tool-on-site) - 具有时间跟踪功能的高级看板工具。 `⊘ Proprietary` `Ruby`
 - [Kantree](https://kantree.io) - 工作管理和协作。 `⊘ Proprietary` `Python`
 - [Solo](https://www.getsoloapp.com/) - 为自由职业者创建的免费项目管理应用。创建联系人、管理任务、上传文件、跟踪项目进展并记笔记。 ([演示](https://www.getsoloapp.com/demo/)) `⊘ Proprietary` `PHP`
@@ -275,12 +317,12 @@
 
 **[`^        返回顶部        ^`](##awesome-selfhosted---non-free-software)**
 
-- [Chaskiq](https://chaskiq.io) - 全功能的在线聊天、帮助中心和CRM，作为Intercom和Drift、Crisp等的替代方案。 ([源代码](https://github.com/chaskiq/chaskiq)) `AGPL-3.0/Commons-Clause` `Ruby`
 - [Chatwoot](https://www.chatwoot.com) - 客户沟通平台（Intercom 和 Zendesk 的替代品）。 ([源代码](https://github.com/chatwoot/chatwoot)) `⊘ Proprietary` `Ruby/Docker/K8S`
 - [Groupboard](https://www.groupboard.com/products/) - 在线白板、音频/视频会议、屏幕共享、共享代码编辑和可选的会话录制/回放。 `⊘ Proprietary` `Unknown`
+- [Mattermost](https://mattermost.com/) - 用于安全协作的平台，覆盖整个软件开发生命周期，可与Gitlab集成（替代Slack）。 ([源代码](https://github.com/mattermost/mattermost)) `⊘ Proprietary` `Go/Docker/K8S`
 - [PrivMX WebMail](https://privmx.com) - 替代性的私有邮件系统 - 基于Web，通过设计端到端加密，自托管，去中心化，使用独立的PKI。易于安装和管理，免费软件，开源。 `⊘ Proprietary` `PHP`
-- [Virola Messenger](https://virola.io/) - 私聊和群聊工具，提供私聊和群聊室、持续的语音和视频会议、文件共享、问题跟踪和集成的任务看板。是Slack等工具的替代品。 `⊘ Proprietary` `C++`
-- [WorkAdventure](https://workadventu.re) - 以16位RPG视频游戏的形式呈现的虚拟办公/虚拟会议应用。 ([演示](https://play.staging.workadventu.re/@/tcm/workadventure/wa-village), [源代码](https://github.com/thecodingmachine/workadventure/)) `AGPL-3.0/Commons-Clause` `Docker`
+- [Virola Messenger](https://virola.io/) - 支持私聊与群聊、持续语音和视频会议、文件共享、集成任务板的即时通讯与协作工具（Slack 替代品）。 `⊘ Proprietary` `C++`
+- [WorkAdventure](https://workadventu.re) - 以16位RPG视频游戏的形式呈现的虚拟办公/虚拟会议应用。 ([演示](https://play.staging.workadventu.re/@/tcm/workadventure/wa-village), [源代码](https://github.com/workadventure/workadventure)) `AGPL-3.0/Commons-Clause` `Docker`
 
 
 ### 通信 - 电子邮件 - 完整解决方案
@@ -317,6 +359,7 @@
 
 **[`^        back to top        ^`](##awesome-selfhosted---non-free-software)**
 
+- `BSD-3-Clause-No-Military-License` - [BSD 3-Clause No Military License](https://spdx.org/licenses/BSD-3-Clause-No-Military-License.html)
 - `BUSL-1.1` - [Business Source License 1.1](https://spdx.org/licenses/BUSL-1.1.html)
 - `CC-BY-NC-SA-3.0` - [Creative Commons Attribution-NonCommercial-ShareAlike License 3.0](https://creativecommons.org/licenses/by-nc-sa/3.0/)
 - `CC-BY-NC-SA-4.0` - [Creative Commons Attribution-NonCommercial-ShareAlike License 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
@@ -327,5 +370,6 @@
 - `Elastic-2.0` - [Elastic License 2.0](https://spdx.org/licenses/Elastic-2.0.html)
 - `NPOSL-3.0` - [Non-Profit Open Software License 3.0](https://spdx.org/licenses/NPOSL-3.0.html)
 - `SSPL-1.0` - [Server Side Public License](https://spdx.org/licenses/SSPL-1.0.html)
+- `SUL-1.0` - [Sustainable Use License v1.0](https://spdx.org/licenses/SUL-1.0.html)
 - `⊘ Proprietary` - [Proprietary software](https://en.wikipedia.org/wiki/Proprietary_software)
 
