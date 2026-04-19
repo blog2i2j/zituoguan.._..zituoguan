@@ -12,10 +12,6 @@
 
 --------------------
 
-推荐 Vaultwarden 社区服务器 [https://mmglq.com](https://mmglq.com)(密码管理器)
-
---------------------
-
 ## 目录
 
 - [软件](#软件)
@@ -264,7 +260,6 @@ _相关: [Web 服务器](#web-服务器)_
 - [sish](https://github.com/antoniomika/sish) - 通过仅使用SSH实现到本地主机的HTTP(S)/WS(S)/TCP隧道（Serveo/ngrok的替代品）。 `MIT` `Go/Docker`
 - [socks5-proxy-server](https://github.com/nskondratev/socks5-proxy-server) - 带有内置身份验证和Telegram机器人的SOCKS5代理服务器，用于用户管理和用户数据使用统计（在按数据量支付时非常方便）。已经Docker化，安装简便。 `Apache-2.0` `Docker`
 - [Squid](http://www.squid-cache.org/) - Web缓存代理，支持HTTP、HTTPS、FTP等。通过缓存和重复使用频繁请求的网页，减少带宽并提高响应时间。 ([源代码](https://code.launchpad.net/squid)) `GPL-2.0` `C/deb`
-- [SWAG（Secure Web Application Gateway）](https://github.com/linuxserver/docker-swag) - Nginx webserver 和带有 PHP 支持的反向代理，内置 Certbot（Let's Encrypt）客户端和 fail2ban 集成。 `GPL-3.0` `Docker`
 - [Tinyproxy](https://tinyproxy.github.io/) - 轻量级的 HTTP/HTTPS 代理守护程序。 ([源代码](https://github.com/tinyproxy/tinyproxy)) `GPL-2.0` `C/deb`
 - [txtdot](https://tempoworks.github.io/documentation) - 仅解析页面中的文本、链接和图片的 HTTP 代理，减少带宽占用，去除广告和繁重脚本。 ([演示](https://txt.dc09.ru), [源代码](https://github.com/TempoWorks/txtdot)) `MIT` `Nodejs/Docker`
 
@@ -810,7 +805,7 @@ _相关: [协同办公](#协同办公)_
 - [Directory Lister](https://www.directorylister.com/) - 简单的基于PHP的目录列表器，列出一个目录及其所有子目录，并允许您在其中导航。 ([源代码](https://github.com/DirectoryLister/DirectoryLister)) `MIT` `PHP/Docker`
 - [filebrowser](https://filebrowser.org/) - 带有 Material Design Web 界面的 Web 文件浏览器。 ([源代码](https://github.com/filebrowser/filebrowser)) `Apache-2.0` `Go`
 - [FileGator](https://filegator.io/) - FileGator 是一个强大的多用户文件管理器，具有单页面前端。 ([演示](https://demo.filegator.io), [源代码](https://github.com/filegator/filegator)) `MIT` `PHP/Docker`
-- [FileRise](https://github.com/error311/FileRise) - Web file manager with uploads, tagging, share links, gallery/table views, and an in-browser editor. ([演示](https://github.com/error311/FileRise?tab=readme-ov-file#live-demo)) `MIT` `Docker/PHP`
+- [FileRise](https://github.com/error311/FileRise) - 基于 Web 的文件管理器，支持上传、标签、分享链接、图库/表格视图以及内置编辑器。 ([演示](https://github.com/error311/FileRise?tab=readme-ov-file#live-demo)) `MIT` `Docker/PHP`
 - [Filestash](https://www.filestash.app/) - Web 文件管理器，可让您在任何位置管理您的数据：FTP、SFTP、WebDAV、Git、S3、Minio、Dropbox 或 Google Drive。 ([演示](https://demo.filestash.app/), [源代码](https://github.com/mickael-kerjean/filestash)) `AGPL-3.0` `Docker`
 - [Gossa](https://github.com/pldubouilh/gossa) - 轻量且简单的文件 Web 服务器。 `MIT` `Go`
 - [IFM](https://github.com/misterunknown/ifm) - 单脚本文件管理器。 `MIT` `PHP`
@@ -1330,7 +1325,7 @@ _相关: [社区支持农业（CSA）](#社区支持农业（csa）)_
 
 **[`^        返回顶部        ^`](#Awesome-Selfhosted)**
 
-A [gallery](https://en.wikipedia.org/wiki/Gallery_Software) is software that helps the user publish or share photos, pictures, videos or other digital media.
+“[相册软件](https://en.wikipedia.org/wiki/Gallery_Software) 是帮助用户发布或分享照片、图片、视频或其他数字媒体的软件。”
 
 _相关: [静态网站生成器](#静态网站生成器), [流媒体 - 视频流媒体](#流媒体---视频流媒体), [内容管理系统（CMS）](#内容管理系统（cms）)_
 
@@ -1340,7 +1335,7 @@ _相关: [静态网站生成器](#静态网站生成器), [流媒体 - 视频流
 - [Ente](https://ente.io/) - 一个端到端加密的照片分享平台（Google Photos 和 Apple Photos 的替代品）。 ([源代码](https://github.com/ente-io/ente)) `AGPL-3.0` `Docker/Nodejs/Go`
 - [HomeGallery](https://home-gallery.org) - 浏览个人照片和视频，支持标签、移动端友好和 AI 驱动的图片发现。 ([演示](https://demo.home-gallery.org), [源代码](https://github.com/xemle/home-gallery)) `MIT` `Nodejs/Docker`
 - [Immich Kiosk](https://github.com/damongolding/immich-kiosk) - 轻量级幻灯片放映工具，可在自助终端设备和浏览器上运行，并使用 Immich 作为数据源。 `GPL-3.0` `Docker/Go`
-- [Immich](https://immich.app/) - Photo and video backup solution directly from your mobile phone (alternative to Google Photos). ([演示](https://github.com/immich-app/immich#demo), [源代码](https://github.com/immich-app/immich)) `AGPL-3.0` `Docker`
+- [Immich](https://immich.app/) - 直接从您的手机备份照片和视频的解决方案（Google Photos 的替代品）。 ([演示](https://github.com/immich-app/immich#demo), [源代码](https://github.com/immich-app/immich)) `AGPL-3.0` `Docker`
 - [LibrePhotos](https://github.com/LibrePhotos/librephotos) - 照片管理服务，注重酷炫的图表展示（Google Photos 的替代品）。 ([客户端](https://docs.librephotos.com/docs/user-guide/mobile/)) `MIT` `Python/Docker`
 - [Lychee](https://lycheeorg.github.io/) - 基于网格与相册的照片管理系统。 ([源代码](https://github.com/LycheeOrg/Lychee)) `MIT` `PHP/Docker`
 - [Mediagoblin](https://mediagoblin.org) - 任何人都可以搭建的媒体发布平台（Flickr、YouTube、SoundCloud 的替代品）。 ([源代码](https://git.savannah.gnu.org/cgit/mediagoblin.git/tree/)) `AGPL-3.0` `Python`
@@ -1742,7 +1737,7 @@ _相关: [库存管理](#库存管理), [资源规划](#资源规划)_
 - [Fusio](https://www.fusio-project.org/) - 开源的API管理平台，帮助构建和管理REST API。 ([演示](https://fusio-project.org/demo), [源代码](https://github.com/apioo/fusio)) `AGPL-3.0` `PHP/Docker`
 - [Graphweaver](https://graphweaver.com/) - 将多个数据源转换为单一的GraphQL API。 ([源代码](https://github.com/exogee-technology/graphweaver)) `MIT` `Nodejs`
 - [Hasura](https://hasura.io) - 在Postgres上快速、即时的实时GraphQL API，具有细粒度的访问控制，还可在数据库事件上触发Webhooks。 ([源代码](https://github.com/hasura/graphql-engine)) `Apache-2.0` `Haskell/Docker/K8S`
-- [Hoppscotch Community Edition](https://hoppscotch.io) - Fast and beautiful API request builder. 快速且美观的 API 请求构建器。 ([源代码](https://github.com/hoppscotch/hoppscotch)) `MIT` `Nodejs/Docker`
+- [Hoppscotch Community Edition](https://hoppscotch.io) - 快速且美观的 API 请求构建器。 ([源代码](https://github.com/hoppscotch/hoppscotch)) `MIT` `Nodejs/Docker`
 - [Kong](https://konghq.com/kong/) - 微服务 API 网关与平台。 ([源代码](https://github.com/Kong/kong)) `Apache-2.0` `Lua/Docker/K8S/deb`
 - [Lura](https://luraproject.org/) - 高性能 API 网关。 ([源代码](https://github.com/luraproject/lura)) `Apache-2.0` `Go`
 - [Opik](https://www.comet.com/site/products/opik/) `⚠` - 通过一套可观察性工具评估、测试和发布LLM应用，帮助在开发和生产生命周期中校准语言模型输出。 ([源代码](https://github.com/comet-ml/opik)) `Apache-2.0` `Docker/Python`
@@ -1925,7 +1920,7 @@ _相关: [工单](#工单), [任务管理和待办清单](#任务管理和待办
 - [Kiwi IRC](https://kiwiirc.com/) - 支持主题的响应式 Web IRC 客户端。 ([演示](https://kiwiirc.com/nextclient/), [源代码](https://github.com/kiwiirc/kiwiirc)) `Apache-2.0` `Nodejs`
 - [ngircd](https://ngircd.barton.de/) - 适用于小型或私有网络的便携轻量级互联网中继聊天 (IRC) 服务器。 ([源代码](https://github.com/ngircd/ngircd)) `GPL-2.0` `C/deb`
 - [Quassel IRC](https://quassel-irc.org/) - 分布式IRC客户端，意味着一个（或多个）客户端可以连接到和从一个中央核心分离。 ([源代码](https://github.com/quassel/quassel)) `GPL-2.0` `C++`
-- [Robust IRC](https://robustirc.net/) - IRC without netsplits. Distributed IRC server, based on RobustSession protocol. ([源代码](https://github.com/robustirc/robustirc)) `BSD-3-Clause` `Go`
+- [Robust IRC](https://robustirc.net/) - 无网络分裂的 IRC。基于 RobustSession 协议的分布式 IRC 服务器。 ([源代码](https://github.com/robustirc/robustirc)) `BSD-3-Clause` `Go`
 - [The Lounge](https://thelounge.chat/) - 自托管的 Web IRC 客户端。 ([演示](https://demo.thelounge.chat/), [源代码](https://github.com/thelounge/thelounge)) `MIT` `Nodejs/Docker`
 - [UnrealIRCd](https://www.unrealircd.org/) - 一款模块化、先进且高度可配置的用C语言编写的IRC服务器，适用于Linux、BSD、Windows和macOS。 ([源代码](https://github.com/unrealircd/unrealircd)) `GPL-2.0` `C`
 - [WeeChat](https://weechat.org/) - 快速、轻量且可扩展的聊天客户端。 ([源代码](https://github.com/weechat/weechat)) `GPL-3.0` `C/Docker/deb`
