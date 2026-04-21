@@ -8,13 +8,15 @@
 
 **[HTML 版本](https://zituoguan.com/)（推荐）**，[Markdown 版本](https://github.com/zituoguan/zituoguan)（旧版）。
 
-请参阅 [贡献](#id7)。
+请参阅 [贡献](#id6)。
 
+--- 
+
+📌 遇到问题上**问答**，想聊技术来**社区**。网站初建，欢迎注册加入。
 --------------------
 
 ## 目录
 
-- [软件](#软件)
   - [DNS](#dns)
   - [URL 缩短服务](#url-缩短服务)
   - [Web 服务器](#web-服务器)
