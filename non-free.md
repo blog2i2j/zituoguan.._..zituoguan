@@ -28,6 +28,7 @@
   - [维基](#维基)
   - [自动化](#自动化)
   - [自托管解决方案](#自托管解决方案)
+  - [虚拟化](#虚拟化)
   - [资金、预算和管理](#资金、预算和管理)
   - [软件开发 - API 管理](#软件开发---api-管理)
   - [软件开发 - IDE 和工具](#软件开发---ide-和工具)
@@ -58,7 +59,7 @@
 
 **[`^        返回顶部        ^`](##awesome-selfhosted---non-free-software)**
 
-- [Planka](https://planka.app/) - 实时看板，用于工作组（Trello 的替代品）。 ([演示](https://plankanban.github.io/planka/#/), [源代码](https://github.com/plankanban/planka)) `⊘ Proprietary` `Nodejs/Docker/K8S`
+- [Planka](https://planka.app/) - 实时看板，用于工作组（Trello 的替代品）。 ([演示](https://plankanban.github.io/planka/#/), [源代码](https://github.com/plankanban/planka)) `⊘ Proprietary` `Node.js/Docker/K8S`
 
 
 ### 内容管理系统（CMS）
@@ -74,7 +75,7 @@
 
 **[`^        返回顶部        ^`](##awesome-selfhosted---non-free-software)**
 
-- [RudderStack](https://rudderstack.com/) - 收集、统一、转换和存储客户数据，并将其路由到各种常见、流行的营销、销售和产品工具（Segment 的替代方案）。 ([源代码](https://github.com/rudderlabs/rudder-server/)) `Elastic-2.0` `Docker/K8S/Go/Nodejs`
+- [RudderStack](https://rudderstack.com/) - 收集、统一、转换和存储客户数据，并将其路由到各种常见、流行的营销、销售和产品工具（Segment 的替代方案）。 ([源代码](https://github.com/rudderlabs/rudder-server/)) `Elastic-2.0` `Docker/K8S/Go/Node.js`
 
 
 ### 地图和全球定位系统（GPS）
@@ -90,7 +91,7 @@
 
 - [Bugsink](https://www.bugsink.com/) - 实时错误追踪，让您的应用程序所有细节尽在掌握。包含清晰指南，轻松完成设置。 ([源代码](https://github.com/bugsink/bugsink/)) `⊘ Proprietary` `Python/Docker`
 - [Deskpro](https://www.deskpro.com/) - 基于本地的帮助台软件，包括电子邮件、聊天、语音和帮助中心发布。具有完全可见的源代码和API。 `⊘ Proprietary` `Unknown`
-- [Erxes](https://erxes.io/install/) - 旨在帮助企业吸引更多参与的客户的营销、销售和客户服务平台。 ([源代码](https://github.com/erxes/erxes)) `AGPL-3.0/Commons-Clause` `Docker/Nodejs`
+- [Erxes](https://erxes.io/install/) - 旨在帮助企业吸引更多参与的客户的营销、销售和客户服务平台。 ([源代码](https://github.com/erxes/erxes)) `AGPL-3.0/Commons-Clause` `Docker/Node.js`
 - [Full Help](https://www.fullhelp.com/en/) - 简单易用的帮助台和知识库软件。自定义品牌、自定义主题、RESTful API、通信渠道、多公司支持、多语言支持等等！每月至少发布1个新版本。 `⊘ Proprietary` `PHP`
 - [JIRA](https://www.atlassian.com/software/jira) - 专业且可扩展的问题跟踪器。 `⊘ Proprietary` `Java`
 - [Jitbit Helpdesk](https://www.jitbit.com/helpdesk/) - 帮助台软件 - 简单但强大。 ([演示](https://www.jitbit.com/saas-helpdesk/trial/)) `⊘ Proprietary` `.NET`
@@ -110,9 +111,9 @@
 **[`^        返回顶部        ^`](##awesome-selfhosted---non-free-software)**
 
 - [Cluster Control](https://severalnines.com/clustercontrol/) - 用监控、负载均衡等功能在几次点击中设置多个数据库。 `⊘ Proprietary` `deb/Ansible/Shell/Docker`
-- [Directus](https://directus.io/) - 一个用于SQL数据库的即时应用和API。Directus为开发人员提供了一个实时的GraphQL+REST API，可包装新的或现有的SQL数据库，并为非技术用户提供了直观的管理应用。 ([源代码](https://github.com/directus/directus)) `BUSL-1.1` `Nodejs/Docker`
+- [Directus](https://directus.io/) - 一个用于SQL数据库的即时应用和API。Directus为开发人员提供了一个实时的GraphQL+REST API，可包装新的或现有的SQL数据库，并为非技术用户提供了直观的管理应用。 ([源代码](https://github.com/directus/directus)) `BUSL-1.1` `Node.js/Docker`
 - [MindsDB](https://mindsdb.com/) - 现有数据库的 AI 层，让你能够使用标准查询语句轻松开发、训练和部署最先进的机器学习模型。 ([源代码](https://github.com/mindsdb/mindsdb)) `Elastic-2.0` `Docker/Python`
-- [NocoDB](https://www.nocodb.com/) - 无代码平台，可将任何数据库转换为智能电子表格（Airtable 和 Smartsheet 的替代品）。 ([源代码](https://github.com/nocodb/nocodb)) `SUL-1.0` `Nodejs/Docker`
+- [NocoDB](https://www.nocodb.com/) - 无代码平台，可将任何数据库转换为智能电子表格（Airtable 和 Smartsheet 的替代品）。 ([源代码](https://github.com/nocodb/nocodb)) `SUL-1.0` `Node.js/Docker`
 
 
 ### 文件传输 - 对象存储和文件服务器
@@ -169,22 +170,22 @@
 
 **[`^        返回顶部        ^`](##awesome-selfhosted---non-free-software)**
 
-- [Cubiks-2048](https://github.com/Kshitij-Banerjee/Cubiks-2048) - 2048游戏的3D克隆。 ([演示](https://kshitij-banerjee.github.io/Cubiks-2048/)) `CC-BY-NC-4.0` `Javascript`
-- [untrusted](https://github.com/AlexNisnevich/untrusted) - 一款为极客和开发人员设计的独特益智游戏，通过阅读和编写Javascript来解决游戏中的谜题。 ([演示](http://alexnisnevich.github.io/untrusted/)) `CC-BY-NC-SA-3.0` `Nodejs`
+- [Cubiks-2048](https://github.com/Kshitij-Banerjee/Cubiks-2048) - 2048游戏的3D克隆。 ([演示](https://kshitij-banerjee.github.io/Cubiks-2048/)) `CC-BY-NC-4.0` `JavaScript`
+- [untrusted](https://github.com/AlexNisnevich/untrusted) - 一款为极客和开发人员设计的独特益智游戏，通过阅读和编写JavaScript来解决游戏中的谜题。 ([演示](http://alexnisnevich.github.io/untrusted/)) `CC-BY-NC-SA-3.0` `Node.js`
 
 
 ### 游戏 - 管理工具和控制面板
 
 **[`^        返回顶部        ^`](##awesome-selfhosted---non-free-software)**
 
-- [GameVault](https://gamevau.lt) - 从您自己的服务器组织、下载和游玩无DRM的游戏，支持元数据丰富和用户友好的界面。 ([演示](https://demo.gamevau.lt), [源代码](https://github.com/Phalcode/gamevault-backend)) `CC-BY-NC-SA-4.0` `Nodejs/Docker`
+- [GameVault](https://gamevau.lt) - 从您自己的服务器组织、下载和游玩无DRM的游戏，支持元数据丰富和用户友好的界面。 ([演示](https://demo.gamevau.lt), [源代码](https://github.com/Phalcode/gamevault-backend)) `CC-BY-NC-SA-4.0` `Node.js/Docker`
 
 
 ### 生成式人工智能（GenAI）
 
 **[`^        返回顶部        ^`](##awesome-selfhosted---non-free-software)**
 
-- [LobeHub](https://www.lobehub.com) - 现代化 AI 对话框架，支持多种 AI 提供商，一键安装 MCP 市场及 Artifacts / Thinking 功能。 ([源代码](https://github.com/lobehub/lobehub), [客户端](https://lobehub.com/mcp)) `⊘ Proprietary` `Nodejs/Docker`
+- [LobeHub](https://www.lobehub.com) - 现代化 AI 对话框架，支持多种 AI 提供商，一键安装 MCP 市场及 Artifacts / Thinking 功能。 ([源代码](https://github.com/lobehub/lobehub), [客户端](https://lobehub.com/mcp)) `⊘ Proprietary` `Node.js/Docker`
 
 
 ### 电子商务
@@ -199,7 +200,7 @@
 
 **[`^        返回顶部        ^`](##awesome-selfhosted---non-free-software)**
 
-- [PhotoStructure](https://photostructure.com/) - 将您家庭的所有照片和视频自动组织成一个有趣而美丽的网站。通过Docker、NodeJS或本地桌面安装程序运行。 `⊘ Proprietary` `Nodejs`
+- [PhotoStructure](https://photostructure.com/) - 将您家庭的所有照片和视频自动组织成一个有趣而美丽的网站。通过Docker、Node.js或本地桌面安装程序运行。 `⊘ Proprietary` `Node.js`
 - [Reservo](https://reservo.co) - 可扩展的图像托管脚本，支持 CDN、付费账户升级、广告位以及拖放上传。 ([演示](https://demo.reservo.co/)) `⊘ Proprietary` `PHP`
 - [Single File PHP Gallery](http://sye.dk/sfpg/) - 一个单一的PHP文件构建的Web图库。 `⊘ Proprietary` `PHP`
 
@@ -215,7 +216,7 @@
 
 **[`^        返回顶部        ^`](##awesome-selfhosted---non-free-software)**
 
-- [Outline](https://www.getoutline.com/) `⚠` - 为您的团队打造的可扩展维基。 ([源代码](https://github.com/outline/outline)) `BUSL-1.1` `Nodejs/Docker`
+- [Outline](https://www.getoutline.com/) `⚠` - 为您的团队打造的可扩展维基。 ([源代码](https://github.com/outline/outline)) `BUSL-1.1` `Node.js/Docker`
 
 
 ### 自动化
@@ -224,7 +225,7 @@
 
 - [Ctfreak](https://ctfreak.com) - 具有移动友好型 Web UI 的 IT 任务调度器，可调度并发、远程和链式执行的 Bash / Powershell / SQL 脚本、Webhooks 等。 `⊘ Proprietary` `Unknown`
 - [CxReports](https://www.cx-reports.com) `⚠` - 带有用户友好的所见即所得模板编辑器、API、自动电子邮件发送和强大安全功能的报告和 PDF 文档生成工具。 `⊘ Proprietary` `Docker`
-- [n8n](https://n8n.io/) - 免费的基于节点的工作流自动化工具。轻松自动化跨不同服务的任务。 ([源代码](https://github.com/n8n-io/n8n)) `Apache-2.0/Commons-Clause` `Nodejs`
+- [n8n](https://n8n.io/) - 免费的基于节点的工作流自动化工具。轻松自动化跨不同服务的任务。 ([源代码](https://github.com/n8n-io/n8n)) `Apache-2.0/Commons-Clause` `Node.js`
 
 
 ### 自托管解决方案
@@ -233,12 +234,19 @@
 
 - [Axigen](https://www.axigen.com/mail-server/free/) - 面向小型和微型企业、集成项目或测试环境的即插即用的消息解决方案。 `⊘ Proprietary` `Unknown`
 - [Cloud Seeder](https://ipv6.rs/cloudseeder/) - 一键式服务器设备部署和维护套件，支持 Windows、MacOS 和 Linux。 ([源代码](https://github.com/ipv6rslimited/cloudseeder)) `⊘ Proprietary` `Go`
-- [Cloudron](https://www.cloudron.io/) - 开放核心软件，让您轻松自托管Web应用程序在您的服务器上。 ([演示](https://my.demo.cloudron.io/), [源代码](https://git.cloudron.io/groups/cloudron)) `⊘ Proprietary` `Nodejs/Docker`
+- [Cloudron](https://www.cloudron.io/) - 开放核心软件，让您轻松自托管Web应用程序在您的服务器上。 ([演示](https://my.demo.cloudron.io/), [源代码](https://git.cloudron.io/groups/cloudron)) `⊘ Proprietary` `Node.js/Docker`
 - [Cosmos](https://cosmos-cloud.io/) - 安全运行服务器应用程序并内置隐私功能。它作为应用程序的安全网关和服务器管理器。 ([源代码](https://github.com/azukaar/cosmos-Server)) `Apache-2.0/Commons-Clause` `Docker/Go`
 - [Easypanel](https://easypanel.io) - 由 Docker 驱动的现代服务器控制面板。 `⊘ Proprietary` `Docker`
 - [Poste.io](https://poste.io) - 用于电子邮件服务器的全功能解决方案。采用最新的反垃圾邮件方法，包括Webmail和简便的管理。提供免费层级。 ([演示](https://poste.io/demo)) `⊘ Proprietary` `Unknown`
-- [Umbrel](https://umbrel.com/) - 一个漂亮的自托管个人服务器操作系统。可安装在Raspberry Pi 4或Ubuntu/Debian上。 ([源代码](https://github.com/getumbrel/umbrel)) `⊘ Proprietary` `Nodejs/Docker`
+- [Umbrel](https://umbrel.com/) - 一个漂亮的自托管个人服务器操作系统。可安装在Raspberry Pi 4或Ubuntu/Debian上。 ([源代码](https://github.com/getumbrel/umbrel)) `⊘ Proprietary` `Node.js/Docker`
 - [Unraid](https://www.unraid.net) `⚠` - 基于Linux的操作系统，设计用于运行家庭媒体服务器设置。 `⊘ Proprietary` `Unknown`
+
+
+### 虚拟化
+
+**[`^        返回顶部        ^`](##awesome-selfhosted---non-free-software)**
+
+- [Vagrant](https://www.vagrantup.com/) - 构建完整开发环境的工具。 ([源代码](https://github.com/hashicorp/vagrant)) `BUSL-1.1` `Ruby`
 
 
 ### 资金、预算和管理
@@ -255,21 +263,21 @@
 **[`^        返回顶部        ^`](##awesome-selfhosted---non-free-software)**
 
 - [Composio](https://composio.dev/) `⚠` - 面向 AI 代理和大型语言模型（LLM）的集成平台，支持 250 多个应用和自定义工具。 ([源代码](https://github.com/ComposioHQ/composio)) `Elastic-2.0` `Python`
-- [Hook0](https://www.hook0.com) - Webhooks 即服务（WaaS），让在线产品轻松提供 Webhooks。免费版每月可分发多达 3,000 个事件，历史记录保留 7 天。 ([源代码](https://gitlab.com/hook0/hook0)) `SSPL-1.0` `Rust/Nodejs/Docker`
+- [Hook0](https://www.hook0.com) - Webhooks 即服务（WaaS），让在线产品轻松提供 Webhooks。免费版每月可分发多达 3,000 个事件，历史记录保留 7 天。 ([源代码](https://gitlab.com/hook0/hook0)) `SSPL-1.0` `Rust/Node.js/Docker`
 
 
 ### 软件开发 - IDE 和工具
 
 **[`^        返回顶部        ^`](##awesome-selfhosted---non-free-software)**
 
-- [RepoFlow](https://www.repoflow.io) - 简化 npm、PyPI、Docker、Go、Helm 等的包管理。提供 10GB 存储、10GB 带宽、100 个包和无限用户的免费云端试用，或可自托管（仅限个人使用）。 `⊘ Proprietary` `Nodejs/Docker`
+- [RepoFlow](https://www.repoflow.io) - 简化 npm、PyPI、Docker、Go、Helm 等的包管理。提供 10GB 存储、10GB 带宽、100 个包和无限用户的免费云端试用，或可自托管（仅限个人使用）。 `⊘ Proprietary` `Node.js/Docker`
 
 
 ### 软件开发 - 低代码
 
 **[`^        返回顶部        ^`](##awesome-selfhosted---non-free-software)**
 
-- [Budibase](https://www.budibase.com) - 在几分钟内构建和自动化内部工具、管理面板、仪表板、CRUD 应用等（与 Outsystems、Retool、Mendix、Appian 等类似）。 ([源代码](https://github.com/Budibase/budibase)) `⊘ Proprietary` `Nodejs/Docker/K8S`
+- [Budibase](https://www.budibase.com) - 在几分钟内构建和自动化内部工具、管理面板、仪表板、CRUD 应用等（与 Outsystems、Retool、Mendix、Appian 等类似）。 ([源代码](https://github.com/Budibase/budibase)) `⊘ Proprietary` `Node.js/Docker/K8S`
 - [Dify.ai](https://dify.ai) - 构建、测试和部署LLM应用程序。 ([源代码](https://github.com/langgenius/dify)) `Apache-2.0/Commons-Clause` `Docker`
 - [UI Bakery](https://uibakery.io) - 快速构建内部工具、客户门户和 CRUD 应用。配置定时任务和 Webhook。通过 GUI 创建结构和管理数据。 ([演示](https://cloud.uibakery.io), [源代码](https://github.com/uibakery/self-hosted)) `⊘ Proprietary` `Docker/K8S`
 
@@ -291,7 +299,7 @@
 - [92five](https://92fiveapp.com/) - 自托管的项目管理应用。 `⊘ Proprietary` `PHP`
 - [Active Collab](https://activecollab.com/) - 项目管理。 `⊘ Proprietary` `PHP`
 - [BitBucket Server](https://www.atlassian.com/software/bitbucket/enterprise/data-center) - 企业级 Git 解决方案（GitLab 的替代品）。 `⊘ Proprietary` `Java`
-- [Buddy Enterprise](https://buddy.works/) - Git 和持续集成/交付平台。 `⊘ Proprietary` `Nodejs/Java`
+- [Buddy Enterprise](https://buddy.works/) - Git 和持续集成/交付平台。 `⊘ Proprietary` `Node.js/Java`
 - [Crucible](https://www.atlassian.com/software/crucible) - 同行代码审查应用程序。 `⊘ Proprietary` `Java`
 - [eigenfocus](https://eigenfocus.com/) - 项目管理、计划和时间跟踪应用。从个人项目到多成员团队，Eigenfocus 适应您的工作流程。 ([源代码](https://github.com/Eigenfocus/eigenfocus)) `⊘ Proprietary` `Docker`
 - [Kanban Tool](https://kanbantool.com/kanban-tool-on-site) - 具有时间跟踪功能的高级看板工具。 `⊘ Proprietary` `Ruby`
@@ -329,7 +337,7 @@
 
 **[`^        返回顶部        ^`](##awesome-selfhosted---non-free-software)**
 
-- [Forward Email](https://forwardemail.net) - 面向所有人的注重隐私加密邮件服务。集 Gmail、Mailchimp、Sendgrid 于一体的解决方案替代品。 ([源代码](https://github.com/forwardemail/forwardemail.net)) `BUSL-1.1/MPL-2.0` `Nodejs/Docker`
+- [Forward Email](https://forwardemail.net) - 面向所有人的注重隐私加密邮件服务。集 Gmail、Mailchimp、Sendgrid 于一体的解决方案替代品。 ([源代码](https://github.com/forwardemail/forwardemail.net)) `BUSL-1.1/MPL-2.0` `Node.js/Docker`
 
 
 ### 通信 - 电子邮件 - 邮件列表和通讯
